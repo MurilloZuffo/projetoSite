@@ -1,15 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Frank+Ruhl+Libre:wght@300..900&family=Micro+5&family=Pacifico&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
+  background-color: #c1bdbd;
   color: #333;
 }
 
 header {
   background-color: #111;
-  color: #e6b800;
+  color: #ffffff;
   padding: 20px;
   text-align: center;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.474);
+}
+header p{
+  padding: auto;
 }
 
 .slogan {
@@ -24,16 +33,30 @@ nav ul {
   display: flex;
   justify-content: center;
   background-color: #222;
+  box-shadow: 0px 7px 30px black;
+  margin: 15px;
 }
 
-nav ul li {
-  margin: 0 15px;
+nav ul li{
+  margin: 10px;
+  padding: 5px;
+  color: #000;
+  
+  
 }
 
-nav ul li a {
-  color: #e6b800;
+nav > ul > li > a:hover{
+  background-color: #c472257d;
+ 
+
+}
+nav > ul > li> a{
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
   text-decoration: none;
   font-weight: bold;
+  transition-duration: 1s;
 }
 
 section {
@@ -73,7 +96,7 @@ img {
   display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
-  background-color: #e6b800;
+  background-color: #C47125;
   color: #000;
   text-decoration: none;
   border-radius: 5px;
@@ -82,7 +105,7 @@ img {
 
 footer {
   background-color: #111;
-  color: #e6b800;
+  color: #C47125;
   text-align: center;
   padding: 20px;
   margin-top: 40px;
